@@ -8,11 +8,19 @@
 int main()
 {
     int n;
-    printf("Enter the value for n\n");
+    printf("Enter the value for n:\n");
     scanf("%d", &n);
+    printf("Fibonacci series:\n");
 
     //Write your code here
+    int i,a=0,b=1,c;
+    for(i=1;i<=n;i++)
+    {
+    printf("%d\n",a);
+    c=a+b;
+    a=b;
+    b=c;
+    }
     
-
-    return 0;
+     return 0;
 }

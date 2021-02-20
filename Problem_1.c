@@ -10,14 +10,20 @@
 int main()
 {
     int N;
-    printf("Enter the value for N\n");
+    printf("Enter the value for N:\n");
     scanf("%d", &N);
 
     //Write your code here
+       int i;
+       int sum=0;
+       for(i=1;i<=N;i++)
+       {sum=sum+i;
+       }
+
        
        
-       
-       
+      printf("Sum of first %d numbers:\n",N);
+      printf("%d\n", sum);
        
     return 0;
 }

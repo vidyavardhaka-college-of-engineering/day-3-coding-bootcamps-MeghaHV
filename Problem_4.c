@@ -10,7 +10,14 @@ int main()
   	scanf("%d", &n);
 
   	//Write your code here
-  	
-
-  	return 0;
+    int i,j;
+    for(i=0;i<n;i++)
+    {
+    for(j=0;j<=i;j++)
+    {
+    printf("*");
+    }
+    printf("\n");
+    }
+    return 0;
 }
